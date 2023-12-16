@@ -2,7 +2,11 @@
 
 ## Demo @ Bengaluru, 16 Dec 2023
 
-This repository contains setup of a Robocorp Action Server with one action that is able to search a given number of books on a given topic.
+This repository contains implementation of a Robocorp Action Server with one action that can search a given number of books on a given topic.
+
+The basic architecture is shown in the following image. All communications happen over standard HTTPS.
+
+![Action Server Demo architecture](https://github.com/robocorp/bengaluru-action-server-demo/assets/630576/7a40ddc5-ae98-4b31-b763-2a9f0d6a024e)
 
 ## Setup
 
