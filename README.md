@@ -4,7 +4,7 @@
 
 This repository contains implementation of a Robocorp Action Server with one action that can search a given number of books on a given topic.
 
-The basic architecture is shown in the following image. All communications happen over standard HTTPS.
+The basic architecture is shown in the following image. All communications happen over standard HTTPS. The Robocorp expose service is a free-to-use reverse proxy service that allows exposing actions securely on the Internet to be consumed by AI applications.
 
 ![Action Server Demo architecture](https://github.com/robocorp/bengaluru-action-server-demo/assets/630576/7a40ddc5-ae98-4b31-b763-2a9f0d6a024e)
 
