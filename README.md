@@ -28,3 +28,22 @@ Start action server with `rcc run` in the repository root directory and note the
 
 Navigate to URL printed during start (typically http://localhost:8080). `Action Packages` page shows the configured actions and allows to test them locally. `Action Runs` page shows the previous runs and provides a live view to the activity.
 
+### Connect to ChatGPT
+
+Configure the Action Server as a custom action in ChatGPT as follows. 
+
+  - Navigate to [https://chat.openai.com/gpts/mine](https://chat.openai.com/gpts/mine)
+  - Create a new GPT, e.g. BookGPT and go to the `Configure` Tab
+    - Give name and description
+    - Click on `Create new action`
+    - **Authentication**
+      - Authentication Type: API Key
+      - API Key: copy-paste from Action Server output
+      - Auth Type: Bearer
+    - **Schema**
+      - Click on `Import from URL`
+      - Copy-paste URL ending with robocorp.link from Action Server output
+    - Save and publish
+      
+    
+
